@@ -1,0 +1,13 @@
+# Build outputs
+**/Debug/
+**/Release/
+**/*.o
+**/*.d
+**/*.su
+**/*.cyclo
+**/*.map
+**/*.list
+
+# IDE/cache
+**/.settings/
+**/*.launch

@@ -219,7 +219,6 @@ void DebugMon_Handler(void)
 void GPDMA1_Channel0_IRQHandler(void)
 {
   /* USER CODE BEGIN GPDMA1_Channel0_IRQn 0 */
-  g_audio_dbg.dma_irq_cnt++;
   /* USER CODE END GPDMA1_Channel0_IRQn 0 */
   HAL_DMA_IRQHandler(&handle_GPDMA1_Channel0);
   /* USER CODE BEGIN GPDMA1_Channel0_IRQn 1 */

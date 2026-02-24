@@ -197,11 +197,6 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Appli/Core/Src/stm32n6xx_it.c</locationURI>
 		</link>
 		<link>
-			<name>Application/User/Core/test.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Appli/Core/Src/test.cpp</locationURI>
-		</link>
-		<link>
 			<name>Application/User/ThreadSafe/newlib_lock_glue.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/ThreadSafe/newlib_lock_glue.c</locationURI>

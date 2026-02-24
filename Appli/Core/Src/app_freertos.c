@@ -55,7 +55,6 @@ const osThreadAttr_t defaultTask_attributes = {
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
-void StartIQProcTask(void *argument);
 /* USER CODE END FunctionPrototypes */
 
 /**
@@ -81,7 +80,6 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE END RTOS_TIMERS */
 
   /* USER CODE BEGIN RTOS_QUEUES */  /* add queues, ... */
-  g_iq_buf_q = osMessageQueueNew(IQ_DMA_QUEUE_DEPTH, sizeof(uint8_t), NULL);
   /* USER CODE END RTOS_QUEUES */
   /* creation of defaultTask */
   defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
